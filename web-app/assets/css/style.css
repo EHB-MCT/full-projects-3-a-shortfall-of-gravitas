@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    line-height: 5.5rem;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-long-arrow-alt-right {
+    margin: 4px 0 0 16px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#start {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #F36F21;
+    font-weight: 700;
+}
+
+.full { 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro { 
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    object-fit: contain;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-4 {
+    margin: 1rem 0;
+}
+
+.col-6 img {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.subtitle {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+}
+
+.banner img { 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media p {
+    margin-top: 1rem;
+}
+
+.media p, .media a {
+    text-decoration: none;
+    color: #F36F21;
+    border: 1px solid #F36F21;
+    font-weight: 500;
+    padding: .25rem .8rem;
+    border-radius: 4px;
+}
+
+.fa-eye, .fa-volume {
+    margin: 0 .2rem 0 0;
+}
+
+
+header {
+    padding: 1rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.dropdown-toggle {
+    background-color: #FFF;
+    color: #F36F21;
+}
+
+.dropdown-toggle:active, .dropdown-toggle:hover, #dropdownMenuButton {
+    background-color: #FFF;
+    color: #F36F21;
+    border: 1px solid #F36F21;
+}
