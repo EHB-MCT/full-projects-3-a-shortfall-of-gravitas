@@ -73,6 +73,8 @@ a {
 .banner {
     position: relative;
     width: 100%;
+    height: 235px;
+    overflow: hidden;
 }
 
 .subtitle {
@@ -87,7 +89,7 @@ a {
 .banner img { 
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit:cover;
 }
 
 .media {
@@ -137,4 +139,29 @@ header {
     background-color: #FFF;
     color: #F36F21;
     border: 1px solid #F36F21;
+}
+
+h3 > a {
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 0 0 0;
+}
+
+.ep{
+    padding-right: 4rem;
+}
+
+.fa-long-arrow-left {
+    font-size: 28px;
+    margin-right: 1rem;
+    color: #F36F21;
+}
+
+.orange {
+    color: #F36F21;
+    font-size: 18px;
+    font-weight: 400;
+    line-break: strict;
 }
