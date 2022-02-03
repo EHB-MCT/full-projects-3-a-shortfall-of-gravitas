@@ -127,7 +127,7 @@ header {
 }
 
 .logo img {
-    width: 75%;
+    width: 60%;
 }
 
 .dropdown-toggle {
@@ -139,6 +139,12 @@ header {
     background-color: #FFF;
     color: #F36F21;
     border: 1px solid #F36F21;
+}
+
+h3 {
+    font-size: 34px;
+    color: #F36F21;
+    font-weight: 700;
 }
 
 h3 > a {
@@ -162,6 +168,6 @@ main {
 .orange {
     color: #F36F21;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     line-break: strict;
 }
