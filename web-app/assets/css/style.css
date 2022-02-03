@@ -3,16 +3,34 @@
     font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+    font-family: "BrushScript";
+    src: url("../../assets/fonts/BRUSHSCI.ttf");
+}
+
+body {
+    background-color: #3B3838;
+    color: #dbdec0;
+}
+
 h1 {
-    font-size: 4rem;
+    font-family: "BrushScript";
+    font-size: 8rem;
     font-weight: 700;
-    color: #FFF;
+    color: #dbdec0;
     text-align: center;
-    line-height: 5.5rem;
+    line-height: 6rem;
+    /* margin-bottom: 48px; */
+}
+
+strong {
+    color: #cf8732;
+    font-family: "BrushScript";
 }
 
 h2 {
     font-weight: 800;
+    font-size: 36px;
 }
 
 a {
@@ -30,16 +48,16 @@ a {
 }
 
 #start {
-    background-color: #FFF;
-    border: 1px solid #FFF;
-    border-radius: 6px;
+    /* background-color: #FFF; */
+    border: 2px solid #dbdec0;
+    border-radius: 25px;
     padding: 1rem 2rem;
     text-decoration: none;
-    color: #F36F21;
+    color: #dbdec0;
     font-weight: 700;
 }
 
-.full { 
+.full {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -49,8 +67,8 @@ a {
     justify-content: center;
 }
 
-#intro { 
-    background-image: url('../img/bg.jpg');
+#intro {
+    background-image: url('../img/image2.png');
     background-size: cover;
     object-fit: contain;
 }
@@ -83,13 +101,13 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FFF;
+    color: #dbdec0;
 }
 
-.banner img { 
+.banner img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .media {
@@ -102,16 +120,18 @@ a {
     margin-top: 1rem;
 }
 
-.media p, .media a {
+.media p,
+.media a {
     text-decoration: none;
-    color: #F36F21;
-    border: 1px solid #F36F21;
+    color: #dbdec0;
+    border: 1px solid #dbdec0;
     font-weight: 500;
     padding: .25rem .8rem;
     border-radius: 4px;
 }
 
-.fa-eye, .fa-volume {
+.fa-eye,
+.fa-volume {
     margin: 0 .2rem 0 0;
 }
 
@@ -131,23 +151,25 @@ header {
 }
 
 .dropdown-toggle {
-    background-color: #FFF;
-    color: #F36F21;
+    /* background-color: #FFF; */
+    color: #dbdec0;
 }
 
-.dropdown-toggle:active, .dropdown-toggle:hover, #dropdownMenuButton {
-    background-color: #FFF;
-    color: #F36F21;
-    border: 1px solid #F36F21;
+.dropdown-toggle:active,
+.dropdown-toggle:hover,
+#dropdownMenuButton {
+    /* background-color: #FFF; */
+    color: #dbdec0;
+    border: 1px solid #dbdec0;
 }
 
 h3 {
     font-size: 34px;
-    color: #F36F21;
+    color: #dbdec0;
     font-weight: 700;
 }
 
-h3 > a {
+h3>a {
     text-decoration: none;
 }
 
@@ -155,18 +177,18 @@ main {
     padding: 2rem 0 0 0;
 }
 
-.ep{
+.ep {
     padding-right: 4rem;
 }
 
 .fa-long-arrow-left {
     font-size: 28px;
     margin-right: 1rem;
-    color: #F36F21;
+    color: #dbdec0;
 }
 
 .orange {
-    color: #F36F21;
+    color: #dbdec0;
     font-size: 18px;
     font-weight: 300;
     line-break: strict;
