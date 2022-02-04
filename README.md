@@ -16,7 +16,7 @@ A brief description of what this project does and who it's for
 ## Acknowledgements
 
  - [readme.so](https://readme.so/)
-
+ - ESPHome yaml code made with help of the documentation of the ESPHome website: https://esphome.io/
 
 ## Installation
 
